@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+/* Header */
+header {
+  background-color: turquoise;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav li {
+  margin: 0 20px;
+}
+
+header nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+/* Tentang */
+.tentang h1 {
+  font-size: 140px;
+}
+
+.tentang h1 span {
+  color: tomato;
+}
+
+.tentang h2 {
+  font-size: 60px;
+}
+
+/* Pelajaran */
+.pelajaran h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.pelajaran .daftar-pelajaran {
+  padding-top: 50px;
+  display: flex;
+}
+
+.pelajaran .daftar-pelajaran .item-pelajaran {
+  margin-right: 40px;
+}
+
+.pelajaran .daftar-pelajaran .item-pelajaran p {
+  padding-top: 20px;
+  font-size: 24px;
+}
+
+/* Hubungi Kami */
+.hubungi-kami h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.hubungi-kami form {
+  padding-top: 50px;
+}
+
+.hubungi-kami form .form-input {
+  margin-bottom: 40px;
+}
+
+.hubungi-kami form .form-input label {
+  display: block;
+  font-size: 18px;
+}
+
+.hubungi-kami form span {
+  color: tomato;
+}
+
+.hubungi-kami form .form-input input,
+.hubungi-kami form .form-input textarea,
+.hubungi-kami form button {
+  padding: 20px;
+  font-size: 18px;
+  width: 400px;
+  font-family: "Avenir Next";
+  border-radius: 4px;
+  border: 1px solid #dee7ec;
+}
+
+.hubungi-kami form button {
+  background-color: #dee7ec;
+  border: none;
+}
+
+/* Footer */
+footer {
+  background-color: #2f5167;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+footer nav ul {
+  list-style-type: none;
+}
+
+footer nav li {
+  margin: 20px 0;
+}
+
+footer nav li a {
+  color: white;
+  text-decoration: none;
+}
